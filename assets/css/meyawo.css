@@ -13457,7 +13457,7 @@ body {
 
 .portfolio-link {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 6px 20px;
   background-color: #4caf50;
   color: #fff;
   text-decoration: none;
@@ -13483,10 +13483,12 @@ body {
 .portfolio-container {
   display: flex;
   justify-content: center;
+  background-color: rgb(180, 173, 211, 0.6);
+
 }
 
 .portfolio-container-child {
   display: flex;
-  gap: 10px;
+  gap: 16px;
   /* gap: 30px; */
 }
