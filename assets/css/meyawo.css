@@ -12306,7 +12306,7 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: red;
+  /* background-color: red; */
   height: 350px;
 
 }
