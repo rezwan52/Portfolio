@@ -12764,6 +12764,7 @@ pre .code {
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
   font-family: 'Baloo Paaji', cursive;
+
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -13421,7 +13422,7 @@ body {
 
 .skill-level {
   height: 100%;
-  background-color: #4caf50;
+  background-color: #695aa6;
 }
 
 
@@ -13458,7 +13459,8 @@ body {
 .portfolio-link {
   display: inline-block;
   padding: 6px 20px;
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
+  background-color: #695aa6;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -13468,6 +13470,14 @@ body {
 
 .portfolio-link:hover {
   color: #7c2d12;
+}
+
+
+
+.root-logo {
+  width: 200px;
+  object-fit: contain;
+  /* margin-left: 40px; */
 }
 
 
@@ -13491,4 +13501,12 @@ body {
   display: flex;
   gap: 16px;
   /* gap: 30px; */
+}
+
+
+@media only screen and (max-width: 620px) {
+  .portfolio-container-child {
+    display: block;
+  }
+
 }
